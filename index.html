@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nature of Code examples built with p5.js">
+  <title>Nature of Code</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Nature of Code</h1>
+      <div class="sketch-picker">
+        <label for="sketch-select">예제 선택</label>
+        <select id="sketch-select"></select>
+      </div>
+    </header>
+
+    <section aria-labelledby="sketch-title">
+      <p id="chapter-title" class="chapter-title"></p>
+      <h2 id="sketch-title"></h2>
+      <div id="app"></div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.10/lib/p5.min.js"></script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
